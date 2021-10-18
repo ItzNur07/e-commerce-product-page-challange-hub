@@ -30,7 +30,7 @@
       </ul>
     </div>
     <div class="right-content">
-      <span><img src="images/icon-cart.svg" alt=""></span>
+      <span><img id="cart" src="images/icon-cart.svg" alt=""><span id="cart-value">0</span></span>
       <span><img class="avatar" src="images/image-avatar.png" alt=""></span>
     </div>
   </div>
@@ -44,13 +44,13 @@
   <div class="card-content">
     <div class="card-content-left">
       <div class="top-img">
-        <img src="images/image-product-1.jpg" alt="">
+        <img id="thum" src="images/image-product-1.jpg" alt="">
       </div>
       <div class="bottom-img">
-        <div><img src="images/image-product-1.jpg" alt=""></div>
-        <div><img src="images/image-product-2.jpg" alt=""></div>
-        <div><img src="images/image-product-3.jpg" alt=""></div>
-        <div><img src="images/image-product-4.jpg" alt=""></div>
+        <div><img id="bottom1" src="images/image-product-1.jpg" alt=""></div>
+        <div><img id="bottom2" src="images/image-product-2.jpg" alt=""></div>
+        <div><img id="bottom3" src="images/image-product-3.jpg" alt=""></div>
+        <div><img id="bottom4" src="images/image-product-4.jpg" alt=""></div>
       </div>
     </div>
     <div class="card-content-right">
@@ -62,11 +62,11 @@
       <p><del>$250.00</del></p>
       <div class="grp">
         <div class="grp-left">
-        <div><img src="images/icon-minus.svg" alt=""></div>
-        <div><span>0</span></div>
-        <div><img src="images/icon-plus.svg" alt=""></div>
+        <div><img src="images/icon-minus.svg" id="minus" alt=""></div>
+        <div><span id="count">0</span></div>
+        <div><img id="plus" src="images/icon-plus.svg" alt=""></div>
         </div>
-        <span class="add-to-cart"><a href="#"><img src="images/icon-cart.svg" alt="">Add to cart</a></span>
+        <span class="add-to-cart"><a id="add" href="#"><img src="images/icon-cart.svg" alt="">Add to cart</a></span>
       </div>
     </div>
   </div>
@@ -77,5 +77,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Itznur07</a>.
   </div>
+
+
+  <script src="app.js"></script>
 </body>
 </html>

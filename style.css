@@ -150,8 +150,21 @@ body{
 	text-decoration: none;
 	border-radius: 10px;
 }
-/*Card Design end*/
 
+#cart{
+	position: relative;
+}
+#cart-value{	
+	color: orange;
+	font-weight:700;
+	font-size: 17px;
+	position: absolute;
+	top:22px;
+}
+/*Card Design end*/
+.opacity{
+	opacity:.5;
+}
 /*attribution color*/
 .attribution{ 
 	font-size: 11px; 
