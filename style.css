@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	background:#FFFFFF;
+}
+.container{
+	width:1140px;
+	margin: 0 auto;
+}
+/*Nav Menu Design start*/
+.navigation{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	padding: 20px;
+
+}
+.logo h1{
+	margin-right: 20px;
+	color:#17181C;
+	text-transform:lowercase;
+	font-size:30px;
+	cursor: pointer;
+}
+.left-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.left-content ul li{
+	display: inline-block;
+	margin-left: 20px;
+}
+.left-content ul li a{
+	margin-top:5px;
+	color:#7E7F84;
+	text-decoration: none;
+	font-size: 16px;
+}
+.right-content{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+.right-content .avatar{
+	width: 45px;
+	margin-left: 35px;
+}
+/*Nav Menu Design end*/
+
+/*Card Design Start*/
+.card{
+	margin:30px;
+	margin-top:70px;
+}
+.card-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-content-left .top-img img{
+	cursor: pointer;
+	width:450px;
+	border-radius: 10px;
+	margin-bottom:10px;
+}
+.card-content-left .bottom-img{
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	cursor: pointer;
+}
+.card-content-left .bottom-img div:nth-child(1) img{
+	border:2px solid orange;
+	opacity: .5;
+
+}
+.card-content-left .bottom-img img{
+	width:100px;
+	border-radius: 10px;
+	margin:7px;
+}
+
+.card-content-right h3{
+	margin-top: 50px;
+	color:#D8936A;
+	text-transform: uppercase;
+}
+.card-content-right .hd-2{
+	margin-top: 15px;
+	font-size: 40px;
+	margin-bottom:45px;
+	color: #212025;
+}
+.card-content-right .para{
+	color: gray;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+.card-content-right .price{
+	color: #0C0B10;
+	margin-bottom: 5px;
+}
+.card-content-right .price span{
+	font-size: 17px;
+	background:#FFF1E8;
+	color:#DA8C4E;
+	padding: 4px;
+	font-weight: 600;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+.card-content-right del{
+	color: gray;
+}
+.card-content-right .grp{
+	cursor: pointer;
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+}
+.card-content-right .grp-left{
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	margin-right: 20px;
+	background: #F7F8FD;
+	font-size: 17px;
+	padding: 10px;
+}
+.card-content-right .grp-left div{
+	margin-left: 20px;
+}
+.card-content-right .grp .add-to-cart a img{
+	width: 17px;
+	color: #fff;
+	margin-right: 5px;
+}
+.card-content-right .grp .add-to-cart a{
+	font-size: 17px;
+	padding:7px;
+	padding: 10px 60px;
+	background:#FF7D1B;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 10px;
+}
+/*Card Design end*/
+
+/*attribution color*/
+.attribution{ 
+	font-size: 11px; 
+	text-align: center; 
+
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
